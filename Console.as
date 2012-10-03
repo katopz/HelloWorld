@@ -59,9 +59,6 @@ package
 		private static var isInit:Boolean = false;
 		private static var _availability:Boolean = ExternalInterface.available;
 		
-		public function Console()
-		{
-		}
 		private static function _initialize():Boolean {
 			if (_availability) {
 				try {
